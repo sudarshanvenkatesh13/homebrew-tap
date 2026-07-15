@@ -1,6 +1,6 @@
 cask "runaway" do
-  version "1.0.0"
-  sha256 "4ebb8dc52bb4374453d4b38ae082c0de3b7fab6b4d8f69fd1b4fbe39873300fa"
+  version "1.0.1"
+  sha256 "6edd49c964510f12b987457fd26ab79faef73f72d87c9f65fc18ea13cbd7a9b8"
 
   url "https://github.com/sudarshanvenkatesh13/runaway-releases/releases/download/v#{version}/Runaway-#{version}.dmg",
       verified: "github.com/sudarshanvenkatesh13/runaway-releases/"
