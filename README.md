@@ -5,15 +5,14 @@ Homebrew cask for [**Runaway**](https://runawaynotch.xyz), the macOS notch app t
 ## Install
 
 ```sh
-brew install --cask sudarshanvenkatesh13/tap/runaway
-```
-
-Or tap first, then install:
-
-```sh
 brew tap sudarshanvenkatesh13/tap
+brew trust sudarshanvenkatesh13/tap
 brew install --cask runaway
 ```
+
+Current versions of Homebrew require you to explicitly trust a third-party tap
+before installing its casks — that's the `brew trust` step above. You only need
+to run it once.
 
 ## Update
 
